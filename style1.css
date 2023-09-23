@@ -1,0 +1,122 @@
+.body {
+    background-color: #800080; /* Purple */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Card-like container */
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; /* Centers children vertically */
+    align-items: stretch;
+    background-color: #FFF; /* White */
+    margin: 20px auto; /* Center the card */
+    max-width: 80%; /* Maximum width */
+    height:80vh;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Shadow to make it look like it's hovering */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* To make sure nothing spills out of the rounded corners */
+  }
+  
+  header {
+    background-color: #000; /* Black */
+    color: #FFF; /* White */
+    font-family: 'Arial', sans-serif; /* Clear, professional font */
+    font-size: 2vw;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
+  }
+  
+  header h1 {
+    margin: 0;
+    font-size: 2.5em;
+  }
+  
+  header nav {
+    margin-top: 10px;
+  }
+  
+  header nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #FFF;
+    transition: color 0.3s ease; /* Hover effect */
+  }
+  
+  header nav a:hover {
+    color: #00FF00; /* Bright green on hover */
+  }
+  
+  
+  main {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center; /* Aligns content to the center */
+    background-color: #FFF;
+    color: #000;
+    font-family: 'Arial', sans-serif;
+    font-size: calc(16px + 1.5vw);
+    padding: 20px 40px; /* Added some padding on the sides */
+    line-height: 1.6;
+    transition: all 0.3s ease; /* Smooth transitions */
+  }
+
+  .center-text {
+    text-align: center;
+  }
+  
+  main h2, h3 {
+    margin: 20px 0;
+    font-size: 1.5em;
+  }
+  
+  main p {
+    margin: 10px 0;
+    max-width: 800px; /* Limits the width for readability */
+  }
+  
+  main a {
+    color: #00FF00;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  main a:hover {
+    color: #FF00FF;
+  }
+  
+  footer {
+    background-color: #00FF00; /* Bright green */
+    color: #000; /* Black text */
+    font-family: 'Arial', sans-serif; /* Clear, professional font */
+    font-size: calc(12px + 1vw);
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px -3px 10px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow at the top */
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 1.2em;
+  }
+  
+  footer a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #000;
+    transition: color 0.3s ease; /* Hover effect */
+  }
+  
+  footer a:hover {
+    color: #FFF; /* White on hover */
+  }
+  footer ul {
+    list-style: none; /* Removes the dots */
+    padding: 0; /* Removes any default padding */
+    margin: 0; /* Removes any default margin */
+  }
+  
+  
