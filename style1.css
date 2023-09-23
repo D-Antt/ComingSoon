@@ -103,12 +103,15 @@
     font-size: 1.2em;
   }
   
-  footer a {
-    margin: 0 10px;
-    text-decoration: none;
-    color: #000;
-    transition: color 0.3s ease; /* Hover effect */
+  footer a img {
+    margin-top: 10px;
+    transition: opacity 0.3s ease; /* Optional: for hover effect */
   }
+  
+  footer a img:hover {
+    opacity: 0.7; /* Optional: for hover effect */
+  }
+  
   
   footer a:hover {
     color: #FFF; /* White on hover */
@@ -119,4 +122,13 @@
     margin: 0; /* Removes any default margin */
   }
   
+  .fab {
+    font-size: 30px;
+    margin-top: 10px;
+    transition: color 0.3s ease; /* Optional: for hover effect */
+  }
+  
+  .fab:hover {
+    color: white; /* Optional: for hover effect */
+  }
   
